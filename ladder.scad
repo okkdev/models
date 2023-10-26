@@ -1,7 +1,7 @@
-cylinder(260, d=10, $fn=50);
+cylinder(250, d=10, $fn=50);
 
 translate([0, 0, 50])
-for(i = [0:1:10])
+for(i = [0:1:9])
 rotate([0, 0, i * 36])
 translate([0, 0, i * 19.5])
 rotate([0, 90, 0])
